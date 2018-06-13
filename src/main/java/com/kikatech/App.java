@@ -31,7 +31,7 @@ public class App {
             for (String[] line : result) {
                 for (String str : line) {
                     bw.write(str);
-                    bw.write(",");
+                    bw.write("\t");
                 }
                 bw.write("\n");
                 log.info(ToString.from(line));
